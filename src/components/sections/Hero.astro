@@ -32,7 +32,7 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
         if (emailDisplay) {
           emailDisplay.textContent = "Copy!";
           setTimeout(() => {
-            emailDisplay.textContent = "{email}";
+            emailDisplay.textContent = "rawraul@outlook.com";
           }, 2000); // Cambiar de vuelta a la dirección de correo después de 2 segundos
         }
         navigator.clipboard.writeText('rawraul@outlook.com');
@@ -104,6 +104,16 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
     padding-inline: 6px;
   }
 
+  footer.no-print p > a:first-of-type {
+  /* Estilos para el primer enlace dentro del párrafo dentro del footer con la clase 'no-print' */
+    border: none;
+    border-left: 1px solid #eee;
+    border-top-left-radius: 0; /* Radio de borde superior izquierdo */
+  border-bottom-left-radius: 0; /* Radio de borde inferior izquierdo */
+  border-top-right-radius: 4.7px; /* Radio de borde superior derecho */
+  border-bottom-right-radius: 4.7px;
+}
+
   .info {
     display: flex;
     flex-direction: column;
@@ -138,6 +148,8 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
     letter-spacing: -0.05rem;
   }
 
+
+
   footer {
     color: #555;
     font-size: 0.65rem;
@@ -158,6 +170,11 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
     border-radius: 6px;
     transition: all 0.3s ease;
   }
+
+  /* footer > a:first-of-type:not(.other-class) {
+  border: none;
+} */
+
 
   footer a:hover {
     background: #eee;
