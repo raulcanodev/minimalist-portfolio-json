@@ -1,15 +1,15 @@
 {
 	"basics": {
 		"name": "Raúl Marco Cano",
-		"label": "Full Stack Developer",
+		"label": "Full Stack Developer ",
 		"image": "/me.webp",
 		"email": "rawraul@outlook.com",
-		"url": "https://raulcano.dev",
-		"summary": "Software Engineer specialized in full stack web development. I have acquired knowledge through bootcamps and self-learning for over a year. Although I haven't had the opportunity to work professionally yet, I live in Lisbon, Portugal, and have been working in digital environments for multinational companies.",
+		"url": "https://midu.dev",
+		"summary": "Ingeniero de Software especializado en desarrollo web full stack. He adquirido conocimientos a través de bootcamp y de forma autodidacta durante más de un año.  Aunque aún no he tenido la oportunidad de trabajar profesionalmente. Vivo en Lisboa, Portugal, trabajando en entornos digitales para empresas multinacionales.",
 		"location": {
 			"address": "",
-			"postalCode": "",
-			"city": "Lisbon",
+			"postalCode": "08820",
+			"city": "Lisboa",
 			"countryCode": "PT",
 			"region": "Portugal"
 		},
@@ -34,16 +34,16 @@
 			"url": "https://www.accenture.com/gb-en",
 			"startDate": "2023-10-30",
 			"endDate": null,
-			"summary": "Responsible for reviewing, classifying, and removing content on the most popular social network. Utilized specific tools and channels while adhering to client guidelines. Maintained a comprehensive understanding of constantly evolving client policies and guidelines. Investigated, resolved, and communicated complex content issues to the Security team.",
+			"summary": "Como analista de la red social más utilizada, mi labor consistía en revisar, clasificar y eliminar contenido según las pautas del cliente, utilizando herramientas y canales específicos. Mantenía una comprensión de las políticas y directrices del cliente en constante cambio. También, investigaba, resolvía y comunicaba problemas de contenido complejo al equipo de Seguridad.",
 			"highlights": ["Started the company"]
 		},
 		{
 			"name": "Teleperformance (Adobe)",
-			"position": "Technical Support",
+			"position": "Technical Support Representative",
 			"url": "https://helpx.adobe.com/contact.html",
 			"startDate": "2022-07-08",
 			"endDate": "2023-10-30",
-			"summary": "Technical Support for Adobe, providing support through chat and phone for technical issues and billing inquiries related to Adobe applications. Key role in training new agents and contributing to service improvement by reporting issues in JIRA.",
+			"summary": "Proporcioné soporte para Adobe, a través de chat y teléfono para problemas técnicos y cuestiones de facturación relacionadas con las aplicaciones de Adobe. Además, colaboré en la formación de nuevos agentes y contribuí a la mejora del servicio mediante el reporte de errores en JIRA.",
 			"highlights": ["Started the company"]
 		},
 		{
@@ -52,25 +52,25 @@
 			"url": "https://btcminingspain.com/",
 			"startDate": "2022-01-30",
 			"endDate": "2022-05-01",
-			"summary": "Sales manager, customer support, and ASIC MINER supplier, I led sales operations, provided personalized assistance to customers during the purchase and installation process, managed the website, coordinated the sales funnel with an external marketing team, and established relationships with manufacturers in China to manage orders.",
+			"summary": "Como gerente de ventas, soporte al cliente y proveedores de ASIC MINER, dirigí las operaciones de venta, así como asistencia personalizada a los clientes durante el proceso de compra e instalación. También, gestioné el sitio web, coordiné el embudo de ventas con un equipo de marketing externo y establecí relaciones con fabricantes en China para gestionar pedidos.",
 			"highlights": ["Started the company"]
 		},
 		{
 			"name": "My Doctor Phone",
-			"position": "Mobile Repair Technician",
+			"position": "Técnico de Reparación de Móviles",
 			"url": "https://www.linkedin.com/posts/raulcano-in_this-was-my-old-lab-where-i-started-with-activity-7089021352673779712-KJju?utm_source=share&utm_medium=member_desktop",
 			"startDate": "2020-11-15",
 			"endDate": "2021-05-01",
-			"summary": "Started my own repair business, specializing in mobile device repairs. Mainly focused on iPhone micro-soldering to provide excellent service and ensure customer satisfaction.",
+			"summary": "Emprendí mi propio negocio de reparación centrado en la reparación de dispositivos móviles. Me especialicé en la microsoldadura de iPhone, proporcionando un buen servicio y trato al cliente.",
 			"highlights": ["Started the company"]
 		},
 		{
 			"name": "Mas Korte",
-			"position": "CNC Controller",
+			"position": "Controlador de CNC",
 			"url": "#",
 			"startDate": "2016-12-15",
 			"endDate": "2022-03-01",
-			"summary": "Operated and maintained CNC cutting machines at Mas Korte to ensure efficient production according to client orders.",
+			"summary": "Fui responsable de operar y mantener maquinas de corte CNC para garantizar una buena producción en base a los pedidos de cada cliente. ",
 			"highlights": ["Started the company"]
 		}
 	],
@@ -89,7 +89,7 @@
 		{
 			"institution": "4Geeks Academy",
 			"url": "https://www.4geeksacademy.co/",
-			"area": "Full Stack Web Development",
+			"area": "Desarrollo Web Full Stack",
 			"studyType": "Bootcamp",
 			"startDate": "2023-10-30",
 			"endDate": "2024-03-25",
@@ -104,15 +104,15 @@
 		},
 		{
 			"institution": "Expertos IT",
-			"area": "L2 Micro-soldering of iPhone motherboards",
-			"location": "Madrid, Spain",
+			"area": "Microsoldadura L2 de placas base para iPhone",
+			"location": "Madrid, España",
 			"startDate": "2019-12-01",
 			"endDate": "2019-12-31"
 		},
 		{
 			"institution": "J. Martinez Ruiz (Azorín)",
 			"url": "",
-			"area": "High School",
+			"area": "Educación Secundaria Obligatoria",
 			"studyType": "High School",
 			"startDate": "2009-09-01",
 			"endDate": "2016-06-01",
@@ -149,40 +149,45 @@
 		{
 			"name": "HTML",
 			"level": "Master",
-			"keywords": ["Web Development", "Frontend"]
+			"keywords": ["Desarrollo Web", "Frontend"]
 		},
 		{
 			"name": "CSS",
 			"level": "Master",
-			"keywords": ["Web Development", "Frontend", "Responsive Design"]
+			"keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
 		},
 		{
 			"name": "JavaScript",
 			"level": "Master",
-			"keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+			"keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
 		},
 		{
 			"name": "Python",
-			"level": "Advanced",
+			"level": "Avanzado",
 			"keywords": [
-				"Programming Language",
-				"Software Development",
+				"Lenguaje de Programación",
+				"Desarrollo de Software",
 				"Backend",
 				"Data Science",
-				"Automation",
-				"Artificial Intelligence"
+				"Automatización",
+				"Inteligencia Artificial"
 			]
 		},
 		{
 			"name": "SQL",
-			"level": "Advanced",
-			"keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+			"level": "Avanzado",
+			"keywords": [
+				"Bases de Datos",
+				"SQL",
+				"Almacenamiento de Datos",
+				"Backend"
+			]
 		},
 		{
 			"name": "React",
-			"level": "Advanced",
+			"level": "Avanzado",
 			"keywords": [
-				"Web Development",
+				"Desarrollo Web",
 				"Frontend",
 				"JavaScript Library",
 				"UI"
@@ -190,19 +195,19 @@
 		},
 		{
 			"name": "Bootstrap",
-			"level": "Advanced",
+			"level": "Avanzado",
 			"keywords": [
-				"Web Development",
+				"Desarrollo Web",
 				"Frontend",
-				"CSS Framework",
-				"Responsive Design"
+				"Framework CSS",
+				"Diseño Responsivo"
 			]
 		},
 		{
 			"name": "Flask",
-			"level": "Advanced",
+			"level": "Avanzado",
 			"keywords": [
-				"Web Development",
+				"Desarrollo Web",
 				"Backend",
 				"Microframework",
 				"Python"
@@ -210,26 +215,25 @@
 		},
 		{
 			"name": "Django",
-			"level": "Advanced",
-			"keywords": [
-				"Web Development",
-				"Backend",
-				"Web Framework",
-				"Python"
-			]
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Backend", "Framework Web", "Python"]
 		},
 		{
 			"name": "Git",
-			"level": "Advanced",
-			"keywords": ["Version Control", "Collaboration", "Source Code"]
+			"level": "Avanzado",
+			"keywords": [
+				"Control de Versiones",
+				"Colaboración",
+				"Código Fuente"
+			]
 		},
 		{
 			"name": "GitHub",
-			"level": "Advanced",
+			"level": "Avanzado",
 			"keywords": [
-				"Version Control",
-				"Collaboration",
-				"Source Code",
+				"Control de Versiones",
+				"Colaboración",
+				"Código Fuente",
 				"Git"
 			]
 		}
@@ -260,22 +264,22 @@
 		{
 			"name": "Instagram Bot",
 			"isActive": false,
-			"description": "Automatically sends direct messages on Instagram from a .csv file",
+			"description": "Envía mensajes directos en Instagram de forma automática desde un .csv",
 			"highlights": ["Python", "Selenium"],
 			"url": "https://github.com/raulcanodev/InstagramBot-AutoDM",
-			"github": "https://github.com/raulcanodev/InstagramBot-AutoDM"
+			"github": "https://github.com/midudev/codi.link"
 		},
 		{
 			"name": "Gaming News",
 			"isActive": true,
-			"description": "Web layout without external frameworks or libraries",
+			"description": "Maquetación de web sin frameworks o librerías externas",
 			"highlights": ["DummyWeb", "HTML5", "CSS3", "Vanilla JavaScript"],
 			"url": "https://css3-gaming-news.vercel.app/"
 		},
 		{
 			"name": "Marketing Agency",
 			"isActive": true,
-			"description": "Web layout without external frameworks or libraries",
+			"description": "Maquetación de web sin frameworks o librerías externas",
 			"highlights": ["DummyWeb", "HTML5", "CSS3", "Vanilla JavaScript"],
 			"url": "https://marketing-agency-web.vercel.app/"
 		}
