@@ -1,7 +1,6 @@
 ---
 import { basics } from "@cv"
 import Section from "@/components/Section.astro"
-import Mail from "@/icons/Mail.astro"
 import Copy from "@/icons/copy.astro"
 import LinkedIn from "@/icons/LinkedIn.astro"
 import GitHub from "@/icons/GitHub.astro"
@@ -24,16 +23,22 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
 ---
 
 <script>
-  const mailElement = document.querySelector(".mail.copy");
-  mailElement.addEventListener('click', (e)=> {
-    e.preventDefault();
-    const emailDisplay = document.getElementById("emailDisplay");
-    emailDisplay.textContent = "Copy!";
-    setTimeout(() => {
-      emailDisplay.textContent = "rawraul@outlook.com";
-    }, 2000); // Cambiar de vuelta a la dirección de correo después de 2 segundos
-    navigator.clipboard.writeText('rawraul@outlook.com');
-    console.log('Email copied!');
+  document.addEventListener("DOMContentLoaded", function() {
+    const mailElement = document.querySelector(".mail.copy");
+    if (mailElement) {
+      mailElement.addEventListener('click', (e)=> {
+        e.preventDefault();
+        const emailDisplay = document.getElementById("emailDisplay");
+        if (emailDisplay) {
+          emailDisplay.textContent = "Copy!";
+          setTimeout(() => {
+            emailDisplay.textContent = "{email}";
+          }, 2000); // Cambiar de vuelta a la dirección de correo después de 2 segundos
+        }
+        navigator.clipboard.writeText('rawraul@outlook.com');
+        console.log('Email copied!');
+      });
+    }
   });
 </script>
 
