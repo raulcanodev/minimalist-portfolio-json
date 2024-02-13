@@ -98,10 +98,12 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
     align-items: center;
     border: 1px solid #eee;
     border-radius: 6px;
+    text-decoration: none;
   }
 
   p span {
     padding-inline: 6px;
+    text-decoration: none;
   }
 
   footer.no-print p > a:first-of-type {
@@ -109,9 +111,9 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
     border: none;
     border-left: 1px solid #eee;
     border-top-left-radius: 0; /* Radio de borde superior izquierdo */
-  border-bottom-left-radius: 0; /* Radio de borde inferior izquierdo */
-  border-top-right-radius: 4.7px; /* Radio de borde superior derecho */
-  border-bottom-right-radius: 4.7px;
+    border-bottom-left-radius: 0; /* Radio de borde inferior izquierdo */
+    border-top-right-radius: 4.7px; /* Radio de borde superior derecho */
+    border-bottom-right-radius: 4.7px;
 }
 
   .info {
