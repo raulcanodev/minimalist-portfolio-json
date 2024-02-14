@@ -24,7 +24,7 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    const mailElement = document.querySelector(".mail.copy");
+    const mailElement = document.querySelector(".copy");
     if (mailElement) {
       mailElement.addEventListener('click', (e)=> {
         e.preventDefault();
@@ -57,7 +57,7 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
       <footer class="no-print">
 
         <p>
-          <span id="emailDisplay">rawraul@outlook.com</span> <a class="mail copy"><Copy/></a>
+          <span id="emailDisplay">rawraul@outlook.com</span> <a class="copy"><Copy/></a>
         </p>
 
         {
@@ -100,10 +100,13 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
     border-radius: 6px;
     text-decoration: none;
   }
-
+  
   p span {
     padding-inline: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     text-decoration: none;
+    font-size: 12px;
   }
 
   footer.no-print p > a:first-of-type {
@@ -114,6 +117,8 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
     border-bottom-left-radius: 0; /* Radio de borde inferior izquierdo */
     border-top-right-radius: 4.7px; /* Radio de borde superior derecho */
     border-bottom-right-radius: 4.7px;
+    height: 30.70px;
+    width: 30.70px;
 }
 
   .info {
