@@ -199,6 +199,16 @@
 			]
 		},
 		{
+			"name": "SASS",
+			"level": "Advanced",
+			"keywords": [
+				"Web Development",
+				"Frontend",
+				"CSS Framework",
+				"Responsive Design"
+			]
+		},
+		{
 			"name": "Flask",
 			"level": "Advanced",
 			"keywords": [
@@ -225,6 +235,16 @@
 		},
 		{
 			"name": "GitHub",
+			"level": "Advanced",
+			"keywords": [
+				"Version Control",
+				"Collaboration",
+				"Source Code",
+				"Git"
+			]
+		},
+		{
+			"name": "Wordpress",
 			"level": "Advanced",
 			"keywords": [
 				"Version Control",
