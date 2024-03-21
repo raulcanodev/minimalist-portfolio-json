@@ -7,7 +7,7 @@ import { education } from "@cv"
 <Section title="Education">
   <ul>
     {
-      education.map(({ institution, startDate, endDate, areaCurrent, courses ,area, area2, area3, area4, area5, area6, area7, area8, area9, area10 }) => {
+      education.map(({ institution, startDate, endDate, areaCurrent, courses ,area, area2, area3, area4, area5, area6 }) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear =
           endDate != null ? new Date(endDate).getFullYear() : "Actual"
