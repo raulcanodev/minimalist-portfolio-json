@@ -5,7 +5,8 @@
 		"image": "/me.webp",
 		"email": "rawraul@outlook.com",
 		"url": "https://raulcano.dev",
-		"summary": "Software Engineer specialized in full stack web development. I have acquired knowledge through bootcamps and self-learning for over a year. Although I haven't had the opportunity to work professionally yet. I live in Lisbon, Portugal, and have been working in digital environments for multinational companies.",
+		"summary": "Junior Full Stack Developer specializing in web development. I'm looking to transition into this field, as I've been training for the past few years and creating my own projects to showcase my skills.",
+		"summary2": "I never stop learning new technologies and improving the ones I already know in my free time, so I can easily adapt to your company's stack. Open to opportunities worldwide.",
 		"location": {
 			"address": "",
 			"postalCode": "",
@@ -89,7 +90,7 @@
 		{
 			"institution": "4Geeks Academy",
 			"url": "https://www.4geeksacademy.co/",
-			"area": "Full Stack Web Development",
+			"area": "Full Stack Development - 300H",
 			"studyType": "Bootcamp",
 			"startDate": "2023-10-30",
 			"endDate": "2024-03-25",
@@ -103,21 +104,24 @@
 			]
 		},
 		{
+			"institution": "Udemy",
+			"areaCurrent": "React Native - (Current)",
+			"area": "The Ultimate React - 65H",
+			"area2": "Master in Advanced CSS3 - 30H",
+			"area3": "JavaScript Total - 26H",
+			"area4": "Python and Django - 32H",
+			"area5": "Python Django The Practical Guide - 23H",
+			"area6": "Bootstrap 5 - 11H",
+			"location": "Madrid, Spain",
+			"startDate": "2022",
+			"endDate": null
+		},
+		{
 			"institution": "Expertos IT",
 			"area": "L2 Micro-soldering of iPhone motherboards",
 			"location": "Madrid, Spain",
 			"startDate": "2019-12-01",
 			"endDate": "2019-12-31"
-		},
-		{
-			"institution": "J. Martinez Ruiz (Azorín)",
-			"url": "",
-			"area": "High School",
-			"studyType": "High School",
-			"startDate": "2009-09-01",
-			"endDate": "2016-06-01",
-			"score": "4.0",
-			"courses": [""]
 		}
 	],
 	"awards": [
@@ -277,6 +281,22 @@
 		}
 	],
 	"projects": [
+		{
+			"name": "ForoGeeks (Forum)",
+			"isActive": false,
+			"description": "Forum based in Reddit. Users can create threads, comment, like, report threads, and much more.",
+			"highlights": [
+				"React",
+				"Flask",
+				"SQLAlchemy",
+				"Bootstrap",
+				"SASS",
+				"Render",
+				"Firebase"
+			],
+			"github": "https://github.com/4GeeksAcademy/forogeeks",
+			"url": "https://github.com/4GeeksAcademy/forogeeks"
+		},
 		{
 			"name": "Instagram Bot",
 			"isActive": false,
