@@ -30,11 +30,20 @@
 
 	"work": [
 		{
+			"name": "WidgiLabs",
+			"position": "Junior Full Stack Developer",
+			"url": "https://www.widgilabs.com/",
+			"startDate": "2024-05-02",
+			"endDate": null,
+			"summary": "I develop WordPress plugins that enable end clients to independently edit the visual aspects of their websites through the CMS. My role involves programming internal features using PHP and React, and creating visual previews for the frontend using CSS, HTML, PHP, and JavaScript.",
+			"highlights": ["Started the company"]
+		},
+		{
 			"name": "Accenture",
 			"position": "Content Analyst",
 			"url": "https://www.accenture.com/gb-en",
 			"startDate": "2023-10-30",
-			"endDate": null,
+			"endDate": "2024-04-27",
 			"summary": "Responsible for reviewing, classifying, and removing content on the most popular social network. Utilized specific tools and channels while adhering to client guidelines. Maintained a comprehensive understanding of constantly evolving client policies and guidelines. Investigated, resolved, and communicated complex content issues to the Security team.",
 			"highlights": ["Started the company"]
 		},
